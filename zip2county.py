@@ -14,11 +14,11 @@ csv.fillna("-999", inplace=True)
 csv.sort_values('county')
 
 # make dictionary 
-zip2fip = csv.to_dict()['county']
+zip2county = csv.to_dict()['county']
 
 # save
 np.save('zip2fip.npy', zip2fip)
 
 # test
-print zip2fip['19104']
+print zip2county['19104']
 
