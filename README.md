@@ -1,5 +1,5 @@
 # zip2county
-A python script that creates a dictionary for mapping 5-digit U.S. zip codes to county names. I had to do this mapping for my work and figured it might be useful thing for other people out there who are interested. A mapping to FIPS codes should be straightforward from the county name.
+A python script that creates a dictionary for mapping 5-digit U.S. zip codes to county names. I had to do this mapping for my work and figured it might be a useful thing for other people out there who are interested. A mapping to FIPS codes should be straightforward from the county name.
 
 ## Summary 
 
